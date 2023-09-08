@@ -25,6 +25,25 @@
             filter: blur(164px);
 
         }
+        .gradient-right{
+            display: flex; 
+            flex-direction: column;
+           
+ 
+            margin: auto; 
+            width: 415.31px; 
+            height: 416.47px; 
+            transform: rotate(88.35deg); 
+            transform-origin: 0 0;
+            background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); 
+            box-shadow: 164px 164px 164px;
+            filter: blur(164px);
+
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
         
         </style>
     </head>
