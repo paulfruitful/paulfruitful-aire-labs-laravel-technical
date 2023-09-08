@@ -15,10 +15,11 @@
         
         /*Minified CSS Classes*/
         .gradient-left{width: 415.31px; height: 416.47px; left: 235.30px; top:50vh; position: absolute; transform: rotate(88.35deg); transform-origin: 0 0; background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); box-shadow: 164px 164px 164px; filter: blur(164px)}
-        .gradient-right{width: 415.31px; height: 216.47px; left: 1565.56px; top:100px; position: absolute; transform: rotate(88.35deg); transform-origin: 0 0; background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); box-shadow: 164px 164px 164px; filter: blur(164px)}
+        .gradient-right{width: 215.31px; height: 216.47px; left: 1465.56px; top:100px; position: absolute; transform: rotate(88.35deg); transform-origin: 0 0; background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); box-shadow: 164px 164px 164px; filter: blur(154px)}
         body{
             position: relative; background: #FFF1E8; display: flex;flex-direction: column;
             overflow-x: hidden;
+            overflow: hidden;
         }
 
         #card-holder{
