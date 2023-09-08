@@ -38,14 +38,12 @@
         </div>
         <div style="width: 16px; height: 16px; left: 80px; top: 0px; position: absolute;">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 100 100">
-                <!-- Define a yellow border for the star -->
                 <polygon
                   points="50,10 61.8,38.2 92.4,38.2 68.2,59 80,86.2 50,70 20,86.2 31.8,59 7.6,38.2 38.2,38.2"
-                  fill="#EE9F00"
+                  fill="none"
                   stroke="#EE9F00"
-                  stroke-width="5"
+                  stroke-width="10"
                 />
-                <!-- Define a white fill for the star -->
                 <polygon
                   points="50,10 61.8,38.2 92.4,38.2 68.2,59 80,86.2 50,70 20,86.2 31.8,59 7.6,38.2 38.2,38.2"
                   fill="white"
