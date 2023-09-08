@@ -34,6 +34,19 @@
             position: absolute;
        
         }
+
+        .star{
+            width: 96px; 
+            height: 16px;
+             position: relative;
+        }
+
+        .card{
+            width: 370px;
+             height: 221px; 
+            background: white;
+             border: 1px #111111 solid;
+        }
         
         </style>
     </head>
