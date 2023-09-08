@@ -26,6 +26,12 @@
             display: flex;
             align-items: center; /* Vertically center the content */
             justify-content: center; /* Horizontally center the content */
+            width: 370px;
+             height: 221px; 
+             left: 135px; 
+             top: 264px; 
+             z-index: 1;
+            position: absolute;
        
         }
         
@@ -34,7 +40,7 @@
     <body class="antialiased" style="background-color: #FFF1E8">
         
             <div class="gradient-right"></div>
-            <div class="flex flex-wrap" >
+            <div class="flex flex-wrap" id="card-holder">
                 <livewire:card/>
             </div>
             <div class="gradient-left"></div>
