@@ -15,20 +15,18 @@
         .gradient-left{width: 415.31px; height: 416.47px; left: 135.30px; top: 661px; position: absolute; transform: rotate(88.35deg); transform-origin: 0 0; background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); box-shadow: 164px 164px 164px; filter: blur(164px)}
         .gradient-right{width: 415.31px; height: 416.47px; left: 1769.30px; top: 69px; position: absolute; transform: rotate(88.35deg); transform-origin: 0 0; background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); box-shadow: 164px 164px 164px; filter: blur(164px)}
         body{
-            display: flex;
-            flex-direction: column;
+            width: 1440px; height: 1186px; position: relative; background: #FFF1E8;
         }
         
         </style>
     </head>
     <body class="antialiased" style="background-color: #FFF1E8">
-        <div style="width: 1440px; height: 1186px; position: relative; background: #FFF1E8">
+        
             <div class="gradient-right"></div>
             
             <div class="gradient-left"></div>
 
-          </div>
-        
+          
     
         
         <body>
