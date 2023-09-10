@@ -1,3 +1,5 @@
+<div>
+
 <div class='card'>
     <div  class="star">
         <div style=" left: 0px; top: 0px; position: absolute; ">
@@ -53,3 +55,5 @@
         </div>
       </div>
 </div>
+
+<div/>

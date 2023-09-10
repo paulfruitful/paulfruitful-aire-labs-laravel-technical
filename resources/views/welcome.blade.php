@@ -45,9 +45,8 @@
         }
 
         #card-holder{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
+            display:flex;
+            flex-direction:row;
             left: 135px; 
             top: 264px; 
             width: 370px;
@@ -65,10 +64,12 @@
         }
 
         .card{
+            position: relative;
             width: 370px;
              height: 221px; 
             background: white;
              border: 1px #111111 solid;
+             z-index: 2;
         }
         
         </style>
@@ -77,9 +78,12 @@
         
             <div class="gradient-right"></div>
             <div  id="card-holder">
-                <livewire:card/>
-            </div>
+                
             <div class="gradient-left"></div>
+            
+                
+
+
 
           
     
