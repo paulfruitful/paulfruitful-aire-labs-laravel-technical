@@ -68,7 +68,6 @@
             padding: 12px;
              position: relative;
         }
-
         .card{
             position: relative;
             display: flex;
@@ -121,6 +120,7 @@
                display: flex;
                flex-direction: row;
                align-content: center;
+               width: 00px;
                margin: -5px;
     
               }
