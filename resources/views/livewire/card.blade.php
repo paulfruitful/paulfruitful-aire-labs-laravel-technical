@@ -58,10 +58,11 @@
         {!!$text!!}
       </div>
 
-      <div>
+      <div class="card-foot">
         <img class="image" src={{$image}} />
-      </div>
-      <div class="title">{{$title}}</div>
+      
+      <div class="title">{{$role}}</div>
+    </div>
 </div>
 
 <div/>

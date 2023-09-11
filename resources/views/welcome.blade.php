@@ -7,7 +7,9 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -89,15 +91,22 @@
             width: 43px; 
             height: 43px; 
             border-radius: 9999px;
-            padding:12
+            padding:12px;
         }
         .title{
+            padding:20px 12px 0px 5px;
             color: #111111; 
             font-size: 16px;
             font-family: Space Grotesk; 
             font-weight: 400; 
             line-height: 24px;
             word-wrap: break-word
+            padding:12px;
+             }
+
+             .card-foot{
+                display: flex;
+                flex-direction: row;
              }
         </style>
     </head>
@@ -105,7 +114,7 @@
         
             <div class="gradient-right"></div>
             <div  id="card-holder">
-           @livewire('card', ['text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43'], 'title'=>'Brian Krotesty', key(0))
+           @livewire('card', ['text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43', 'role'=>'Brian Krotesty', ],key(0))
            
             </div>
             <div class="gradient-left"></div>
