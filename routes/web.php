@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data=['text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Brian Krotesty','role'=>'Consultant'];
+    return view('welcome')->with('data');
 });
