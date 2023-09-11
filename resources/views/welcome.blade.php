@@ -15,7 +15,8 @@
         
         <!-- Styles -->
         <style>
-        
+           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
         .gradient-left{
             width: 415.31px; 
             height: 416.47px;
@@ -73,7 +74,8 @@
             flex-direction: column;
              
             background: white;
-             border: 1px #111111 solid;
+             border: 1px #313030 solid;
+             box-shadow: 3px 3px #FFF1E8;
              z-index: 2;
              padding: 16px;
         }
@@ -93,20 +95,35 @@
             border-radius: 9999px;
             padding:12px;
         }
-        .title{
-            padding:20px 12px 0px 5px;
+        .name{
+            padding:22px 12px 0px 0px;
             color: #111111; 
             font-size: 16px;
             font-family: Space Grotesk; 
             font-weight: 400; 
             line-height: 24px;
             word-wrap: break-word
-            padding:12px;
+            
+             }
+
+             .title{
+                opacity: 0.70; 
+                color: #111111; 
+                font-size: 14px; 
+                font-family: Inter; 
+                font-weight: 400; 
+                line-height: 20px; 
+                word-wrap: break-word
              }
 
              .card-foot{
                 display: flex;
                 flex-direction: row;
+             }
+
+             .role{
+                display: flex;
+                flex-direction: column;
              }
         </style>
     </head>
@@ -114,7 +131,7 @@
         
             <div class="gradient-right"></div>
             <div  id="card-holder">
-           @livewire('card', ['text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43', 'role'=>'Brian Krotesty', ],key(0))
+           @livewire('card', ['text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Brian Krotesty','role'=>'Consultant' ],key(0))
            
             </div>
             <div class="gradient-left"></div>

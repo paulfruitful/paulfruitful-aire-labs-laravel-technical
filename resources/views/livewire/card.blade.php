@@ -60,9 +60,11 @@
 
       <div class="card-foot">
         <img class="image" src={{$image}} />
-      
+      <div class="role">
+      <div class="name">{{$name}}</div>
       <div class="title">{{$role}}</div>
-    </div>
+   </div>
+   </div>
 </div>
 
 <div/>
