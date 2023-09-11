@@ -73,12 +73,12 @@
             position: relative;
             display: flex;
             flex-direction: column;
-             margin:0px 12px 0px -3px;
+            margin:0px 12px 0px -3px;
             background: white;
              border: 1px #313030 solid;
              box-shadow: 1px 1px #FFF1E8;
              z-index: 2;
-             padding: 26px;
+             padding: 16px;
         }
       .text{
         width: 310px;
@@ -117,12 +117,13 @@
                 word-wrap: break-word
              }
 
-             .card-foot{
-                display: flex;
-                flex-direction: row;
-                align-content: center;
-                position: relative;
-             }
+             .card-foot {
+               display: flex;
+               flex-direction: row;
+               align-content: center;
+               margin: -5px;
+    
+              }
 
              .role{
                 display: flex;
