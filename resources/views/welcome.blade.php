@@ -52,7 +52,6 @@
         #card-holder{
             display:flex;
             flex-direction:row;
-            flex-wrap: wrap;
             left: 135px; 
             top: 264px; 
             width: 370px;
@@ -66,6 +65,7 @@
         .star{
             width: 96px; 
             height: 16px;
+            padding: 12px;
              position: relative;
         }
 
@@ -78,7 +78,7 @@
              border: 1px #313030 solid;
              box-shadow: 1px 1px #FFF1E8;
              z-index: 2;
-             padding: 16px;
+             padding: 26px;
         }
       .text{
         width: 310px;
@@ -88,7 +88,7 @@
         font-weight: 400;
         line-height: 26px;
         word-wrap: break-word;
-        padding: 16px;
+        padding: 6px;
 }
         .image{
             width: 43px; 
@@ -120,6 +120,8 @@
              .card-foot{
                 display: flex;
                 flex-direction: row;
+                align-content: center;
+                position: relative;
              }
 
              .role{
