@@ -56,7 +56,7 @@
             top: 264px; 
             width: 370px;
              height: 221px; 
-             
+             justify-content:space-between;
              z-index: 1;
             position: relative;
        
