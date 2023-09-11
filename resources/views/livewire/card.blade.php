@@ -1,5 +1,4 @@
 
-
 <div class='card'>
     <div  class="star">
         <div style=" left: 0px; top: 0px; position: absolute; ">
@@ -55,15 +54,16 @@
         </div>
       </div>
       <div class="text">
-        {!!$text!!}
+        {!!$card["text"]!!}
       </div>
 
       <div class="card-foot">
-        <img class="image" src={{$image}} />
+        <img class="image" src={{$card["image"]}} />
       <div class="role">
-      <div class="name">{{$name}}</div>
-      <div class="title">{{$role}}</div>
+      <div class="name">{{$card["name"]}}</div>
+      <div class="title">{{$card["role"]}}</div>
    </div>
    </div>
 
 
+</div>

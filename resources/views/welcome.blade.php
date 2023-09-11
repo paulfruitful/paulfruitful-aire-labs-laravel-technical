@@ -52,6 +52,7 @@
         #card-holder{
             display:flex;
             flex-direction:row;
+            flex-wrap: wrap;
             left: 135px; 
             top: 264px; 
             width: 370px;
@@ -72,10 +73,10 @@
             position: relative;
             display: flex;
             flex-direction: column;
-             
+             margin:0px 12px 0px -3px;
             background: white;
              border: 1px #313030 solid;
-             box-shadow: 3px 3px #FFF1E8;
+             box-shadow: 1px 1px #FFF1E8;
              z-index: 2;
              padding: 16px;
         }
@@ -130,8 +131,10 @@
     <body class="antialiased" style="background-color: #FFF1E8">
         
             <div class="gradient-right"></div>
-
-        
+            <div>
+              <livewire:card-holder :data="$data"/>
+            </div>
+            
             <div class="gradient-left"></div>
             
                 
