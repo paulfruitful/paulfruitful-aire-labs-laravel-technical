@@ -131,9 +131,12 @@
         
             <div class="gradient-right"></div>
             <div  id="card-holder">
-           @livewire('card', ['text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Brian Krotesty','role'=>'Consultant' ],key(0))
+                @foreach ($data as $card)
+                @livewire('card', ['text' =>{{$card["text"]}},'stars'=>{{$card["stars"]}}, 'image'=>{{$card['image']}}, 'name'=>'Brian Krotesty','role'=>'Consultant' ],key($card['key']))
            
-            </div>
+          
+                @endforeach
+  </div>
             <div class="gradient-left"></div>
             
                 
