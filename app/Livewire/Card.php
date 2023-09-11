@@ -6,7 +6,12 @@ use Livewire\Component;
 
 class Card extends Component
 {
-    public $stars=5;
+    public $stars;
+    public $text;
+    public $name;
+    public $role;
+    public $image;
+
     public function render()
     {
         return view('livewire.card');

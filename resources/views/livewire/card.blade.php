@@ -54,6 +54,14 @@
               </svg>
         </div>
       </div>
+      <div class="text">
+        {!!$text!!}
+      </div>
+
+      <div>
+        <img class="image" src={{$image}} />
+      </div>
+      <div class="title">{{$title}}</div>
 </div>
 
 <div/>
