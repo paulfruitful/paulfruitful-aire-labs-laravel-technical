@@ -1,4 +1,4 @@
-<div>
+
 
 <div class='card'>
     <div  class="star">
@@ -65,6 +65,5 @@
       <div class="title">{{$role}}</div>
    </div>
    </div>
-</div>
 
-<div/>
+

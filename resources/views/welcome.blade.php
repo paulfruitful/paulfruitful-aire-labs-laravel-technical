@@ -130,12 +130,14 @@
     <body class="antialiased" style="background-color: #FFF1E8">
         
             <div class="gradient-right"></div>
+
             <div  id="card-holder">
-                @foreach ($data as $card)
-                @livewire('card', ['text' =>{{$card["text"]}},'stars'=>{{$card["stars"]}}, 'image'=>{{$card['image']}}, 'name'=>'Brian Krotesty','role'=>'Consultant' ],key($card['key']))
-           
-          
-                @endforeach
+                
+                    @foreach ($data as $card)
+                        @livewire('card', ['text' => $card["text"], 'stars' => $card["stars"], 'image' => $card['image'], 'name' => $card['name'], 'role' => $card['role']], key($card['key']))
+                    @endforeach
+         
+
   </div>
             <div class="gradient-left"></div>
             
