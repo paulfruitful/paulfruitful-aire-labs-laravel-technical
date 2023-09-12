@@ -52,11 +52,12 @@
         #card-holder{
             display:flex;
             flex-direction:row;
+            flex-wrap:wrap; 
             left: 135px; 
             top: 264px; 
-            width: 370px;
-             height: 221px; 
-             justify-content:space-between;
+            justify-content: space-around;
+            width: 85%;
+            height: 221px; 
              z-index: 1;
             position: relative;
        
@@ -120,7 +121,7 @@
                display: flex;
                flex-direction: row;
                align-content: center;
-               width: 00px;
+               
                margin: -5px;
     
               }

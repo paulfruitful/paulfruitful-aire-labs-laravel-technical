@@ -1,5 +1,5 @@
 <div>
-    <div  id="card-holder ">
+    <div  id="card-holder">
                 
         @foreach ($data as $card)
       
