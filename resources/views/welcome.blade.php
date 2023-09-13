@@ -135,21 +135,51 @@
 
              @media screen and (max-width:425px){
               .gradient-right{
-                left: 200vw; 
-                filter: blur(80px);
+                left: 195%;
+                width: 215.31px;
+                 height: 316.47px; 
+                 transform: rotate(88.35deg);
+                transform-origin: 0 0; 
+                background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); 
+                box-shadow: 40px 40px 40px; 
+                  filter: blur(80px)
          
               }
-              body{
-                display: flex;
-                z-index: -2;
-                overflow-x: hidden;
+              .gradient-left-bottom{
+            width: 415.31px; 
+            height: 416.47px;
+             left: 235.30px; 
+             top:250vh; 
+             position: absolute; 
+             transform: rotate(88.35deg); 
+             transform-origin: 0 0; 
+             background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); 
+             box-shadow: 40px 40px 40px; 
+             filter: blur(80px)
+            }
+            .gradient-r-bottom{
+            width: 215.31px;
+            height: 316.47px;
+             left: 195%; 
+             top:200vh; 
+             position: absolute; 
+             transform: rotate(88.35deg); 
+             transform-origin: 0 0; 
+             background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); 
+             box-shadow: 40px 40px 40px; 
+             filter: blur(80px)
+            }
+           
+              .gradient-left{
+                top:100vh;
               }
+             
               #card-holder{
-                align-self: center;
-                align-items: center;
-                align-content: center;
-                margin-top: 300px;
+               width: 100%;
                 z-index: 3;
+                margin-left:50px ;
+                margin-right: 50px;
+                margin-bottom: 30px;
               }
 
               .card{
@@ -157,17 +187,35 @@
               }
                
              }
+             @media screen and (max-width:325px){
+              #card-holder{
+                margin: 50px;
+              }
+               body{
+                width: 150%;
+               }
+              .gradient-right{
+                left:150%;
+              }
+            }
+            @media screen and (max-width:768px){
+                .gradient-right{
+                    left: 130%;
+                }
+            }
         </style>
     </head>
     <body class="antialiased" style="background-color: #FFF1E8">
         
             <div class="gradient-right"></div>
+        
             <div>
               <livewire:card-holder :data="$data"/>
             </div>
             
-            <div class="gradient-left"></div>
-            
+            <div class="gradient-left"></div> 
+            <div class="gradient-r-bottom"></div>
+                 <div class="gradient-left-bottom"></div>
                 
 
 
