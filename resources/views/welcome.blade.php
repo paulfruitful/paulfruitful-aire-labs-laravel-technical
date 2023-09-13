@@ -26,8 +26,9 @@
              transform: rotate(88.35deg); 
              transform-origin: 0 0; 
              background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); 
-             box-shadow: 164px 164px 164px; 
-             filter: blur(164px)}
+             box-shadow: 40px 40px 40px; 
+             filter: blur(80px)
+            }
         
         .gradient-right{
             width: 215.31px; 
@@ -38,15 +39,16 @@
             transform: rotate(88.35deg); 
             transform-origin: 0 0; 
             background: linear-gradient(149deg, #F82C2C 0%, #EC874E 22%, #E78B20 39%, #6C3DF4 56%, #FF2633 77%, #FF1818 100%); 
-            box-shadow: 164px 164px 164px; 
-            filter: blur(154px)}
+            box-shadow: 40px 40px 40px; 
+             filter: blur(80px)
+        }
         body{
             display: flex;
             flex-direction: column;
             position: relative; 
             background: #FFF1E8; 
             overflow-x: hidden;
-            overflow: hidden;
+            overflow-x: hidden;
         }
 
         #card-holder{
@@ -55,8 +57,7 @@
             flex-wrap:wrap; 
             left: 135px; 
             top: 264px; 
-            justify-content: space-around;
-            width: 85%;
+            width: 100%;
             height: 221px; 
              z-index: 1;
             position: relative;
@@ -71,9 +72,10 @@
         }
         .card{
             position: relative;
+            
             display: flex;
             flex-direction: column;
-            margin:0px 12px 0px -3px;
+            margin:20px 19px 0px 0px;
             background: white;
              border: 1px #313030 solid;
              box-shadow: 1px 1px #FFF1E8;
@@ -129,6 +131,31 @@
              .role{
                 display: flex;
                 flex-direction: column;
+             }
+
+             @media screen and (max-width:425px){
+              .gradient-right{
+                left: 200vw; 
+                filter: blur(80px);
+         
+              }
+              body{
+                display: flex;
+                z-index: -2;
+                overflow-x: hidden;
+              }
+              #card-holder{
+                align-self: center;
+                align-items: center;
+                align-content: center;
+                margin-top: 300px;
+                z-index: 3;
+              }
+
+              .card{
+                margin: 20px;
+              }
+               
              }
         </style>
     </head>

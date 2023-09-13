@@ -17,8 +17,9 @@ Route::get('/', function () {
     $data=[
         ['key'=>0,'text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Brian Krotesty','role'=>'Consultant'],
         ['key'=>1,'text'=>'“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”', 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Alexa Popen', 'role'=>'CEO', 'stars'=>5],
-        ['key'=>2,'text'=>'“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”', 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Alexa Popen', 'role'=>'CEO', 'stars'=>5]
-    
+        ['key'=>2,'text'=>'“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”', 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Alexa Popen', 'role'=>'CEO', 'stars'=>5],
+        ['key'=>3,'text' =>'“You made it so simple.”','stars'=>4, 'image'=>'https://via.placeholder.com/43x43', 'name'=>'Brian Krotesty','role'=>'Consultant'],
+       
         ];
     return view('welcome')->with('data',$data);
 });
